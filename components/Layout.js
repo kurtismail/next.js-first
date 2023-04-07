@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
             <Nav />
             <div>
                 <main className={styles.main}>
-                    <h1>Layout bütün sayfada görünür</h1>
+                    {/* <h1>Layout bütün sayfada görünür</h1> */}
                     {children}
                 </main>
             </div >
