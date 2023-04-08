@@ -19,6 +19,11 @@ const Nav = () => {
                         <p>About</p>
                     </Link>
                 </li>
+                <li>
+                    <Link href="/videos">
+                        <p>Videos</p>
+                    </Link>
+                </li>
             </ul>
         </nav>
     )

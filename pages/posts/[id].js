@@ -30,12 +30,13 @@ export const getStaticPaths = async () => {
 
     const paths = posts.map((post) => {
         return {
-            params: { id: post.id },
+            params: { id: post.id.toString() },
         }
     })
     return {
         paths,
-        fallback: true
+        fallback: false
+        //false yaparsak hata almadan 404  sayfası almamızı sağlar
     };
 }
 export const getStaticProps = async (context) => {
