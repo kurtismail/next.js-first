@@ -21,8 +21,8 @@ export default function Videos({ videos }) {
             <style jsx>
                 {`
                 .card {
-                    margin:1rem;
-                    flex-basics:45%;
+                    margin:2rem;
+                    flex-basics:50%;
                     padding:1.5rem;
                     text-align:center;
                     color:inherit;
