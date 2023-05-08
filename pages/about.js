@@ -15,11 +15,16 @@ export default function About() {
                     color:green;
                     background-color:black;
                     text-align:center;
+                    margin-top:5%;
                 }
                 .redColor {
                     color: gray;
                     font-size: 30px;
                     text-align: center;
+                    margin-top:2%;
+                }
+                p {
+                    margin-bottom:35%;
                 }
 
             `} </style>
