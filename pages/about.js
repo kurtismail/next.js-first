@@ -24,7 +24,7 @@ export default function About() {
                     margin-top:2%;
                 }
                 p {
-                    margin-bottom:35%;
+                    margin-bottom:34%;
                 }
 
             `} </style>
