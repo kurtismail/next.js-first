@@ -18,7 +18,7 @@ export default function About() {
                     margin-top:5%;
                 }
                 .redColor {
-                    color: gray;
+                    color: black;
                     font-size: 30px;
                     text-align: center;
                     margin-top:2%;
