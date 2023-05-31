@@ -50,7 +50,7 @@ const VideoDetails = ({ video }) => {
                     border-radius: 50%;
                    }
                    
-                   .red {
+                   .black {
                     background-color: #ff605c;
                    }
                    
