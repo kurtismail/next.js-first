@@ -21,7 +21,7 @@ const Nav = () => {
                 </li>
                 <li>
                     <Link href="/videos">
-                        <p>Videos</p>
+                        <p>Video</p>
                     </Link>
                 </li>
             </ul>

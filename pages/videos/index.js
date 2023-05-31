@@ -15,21 +15,30 @@ export default function Videos({ videos }) {
             </Head>
             {videos.map((video) => (
                 <Link key={video.id} href={`/videos/${video.id}`}>
-                    <h2 className='card'>{video.name}</h2>
+                    <div className='card'>
+                        <h2 >{video.name}</h2>
+                    </div>
                 </Link>
             ))}
             <style jsx>
                 {`
                 .card {
-                    margin:2rem;
-                    flex-basics:50%;
-                    padding:1.5rem;
-                    text-align:center;
-                    color:inherit;
-                    text-decoration:none;
-                    border:1px solid #000;
-                    border-radius:10px;
-                    transition:color 0.2s ease, border-color 0.2s ease;
+                    width: 190px;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 2rem;
+                    height: 80px;
+                    border-radius: 30px;
+                    background: #212121;
+                    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                                -15px -15px 30px rgb(60, 60, 60);
+                   }
+                h2 {
+                    text-align: center;
+                    justify-content: center;
+                    color: #fff;
+                    align-items: center;
+                    
                 }
                 `}
             </style>
