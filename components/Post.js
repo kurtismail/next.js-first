@@ -27,7 +27,6 @@ const Post = ({ post }) => {
                     height: 300px;
                     position: relative;
                     border-radius: 10px;
-                    opacity: 0.5;
                   }
                   .card-container::before {
                     content: "";
@@ -76,6 +75,7 @@ const Post = ({ post }) => {
                     text-align: center;
                     gap: 10px;
                     color: #000;
+                    background-color: #fff;
                     padding: 20px;
                     line-height: 1.5;
                     border-radius: 5px;
