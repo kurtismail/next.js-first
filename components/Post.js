@@ -23,7 +23,7 @@ const Post = ({ post }) => {
       <style jsx>
         {`
                 .card-container {
-                    width: 300px;
+                    width: 400px;
                     height: 300px;
                     position: relative;
                     border-radius: 10px;
