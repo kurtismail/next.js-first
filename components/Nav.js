@@ -6,22 +6,19 @@ const Nav = () => {
     return (
         <nav className={styles.nav}>
             <ul>
-                <Link href="https://nextjs.org/">
-                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*94Z17dA4rkLL5pOon2ZbCw.jpeg" alt="" />
-                </Link>
                 <li>
                     <Link href="/">
-                        <p>Home</p>
+                        <h4 className='button'>Home</h4>
                     </Link>
                 </li>
                 <li>
                     <Link href="/about">
-                        <p>About</p>
+                        <h4 className='button'>About</h4>
                     </Link>
                 </li>
                 <li>
                     <Link href="/videos">
-                        <p>Video</p>
+                        <h4 className='button'>Video</h4>
                     </Link>
                 </li>
             </ul>
